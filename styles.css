@@ -60,6 +60,7 @@ header {
 .nav-button:hover {
   background-color: black;
   color: white;
+  cursor: pointer;
 }
 
 .main-header {
@@ -87,6 +88,11 @@ h1 {
   color: #80002a;
 }
 
+.next-page:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .main-container {
   display: flex;
 }
@@ -107,6 +113,7 @@ h1 {
 
 .main-icon-container:hover {
   background-color: #009999;
+  cursor: pointer;
 }
 
 .pointing-icon {
@@ -194,20 +201,138 @@ li {
   width: 100px;
 }
 
+.play-icon:hover {
+  cursor: pointer;
+}
+
+.latest-video-text {
+  position: absolute;
+  bottom: 30px;
+  left: 10px;
+  padding: 10px;
+  font-weight: bold;
+  background-color: white;
+}
+
 .latest-video-text-2 {
   color: #009999;
 }
 
+.latest-text {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.latest-text:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.latest-text-1 {
+  margin-bottom: 6px;
+}
+
 .updates-videos-container {
   display: flex;
+  justify-content: space-between;
+}
+
+.updates-video-container:hover {
+  cursor: pointer;
+}
+
+.updates-video {
+  position: relative;
+  background-color: black;
+  width: 140px;
+  height: 110px;
+  margin-bottom: 10px;
+}
+
+.updates-video-text {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background-color: white;
+  padding: 2px;
+  font-size: 8px;
+}
+
+.updates-text {
+  max-width: 140px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.updates-text:hover {
+  text-decoration: underline;
 }
 
 .more {
   color: #009999;
+  text-align: center;
+}
+
+.updates-more {
+  width: 140px;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more-arrow:hover {
+  cursor: pointer;
+}
+
+.more-text:hover {
+  color: black;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .discussion-videos-container {
   display: flex;
+  justify-content: space-between;
+}
+
+.discussion-video-container:hover {
+  cursor: pointer;
+}
+
+.discussion-video {
+  position: relative;
+  background-color: black;
+  width: 300px;
+  height: 220px;
+  margin-bottom: 10px;
+}
+
+.discussion-video-text {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: white;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.discussion-text {
+  max-width: 310px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.discussion-text:hover {
+  text-decoration: underline;
+}
+
+.discussion-more {
+  width: 300px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-footer {
@@ -229,6 +354,10 @@ li {
   padding-right: 70px;
 }
 
+.top-container:hover {
+  cursor: pointer;
+}
+
 .top-text {
   margin-left: 20px;
   margin-right: 20px;
@@ -243,6 +372,24 @@ li {
   padding-right: 10px;
 }
 
+.next-container:hover {
+  cursor: pointer;
+}
+
+.next-text-container {
+  margin-right: 20px;
+}
+
 .next-text-down {
   color: #80002a;
+  font-size: 12px;
+}
+
+footer {
+  font-size: 10px;
+}
+
+.footer-text {
+  max-width: 200px;
+  text-align: center;
 }
