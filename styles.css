@@ -35,7 +35,7 @@ h2 {
 .nav-text-link {
   text-decoration: none;
   color: black;
-  margin-right: 30px;
+  margin-right: 10px;
 }
 
 .nav-text-link:hover {
@@ -52,14 +52,19 @@ h2 {
   height: 36px;
 }
 
+.nav-text {
+  font-size: 10px;
+}
+
 .nav-button {
   background: none;
   border: 1px solid black;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-left: 10px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-left: 6px;
+  font-size: 10px;
 }
 
 .nav-button:hover {
@@ -205,11 +210,11 @@ li {
 
 .latest-video {
   position: relative;
-  width: 400px;
+  width: 340px;
 }
 
 .latest-image {
-  width: 400px;
+  width: 340px;
 }
 
 .play-icon {
@@ -251,9 +256,23 @@ li {
   margin-bottom: 6px;
 }
 
-.updates-videos-container {
+/* .updates-videos-container {
   display: flex;
   justify-content: space-between;
+} */
+
+.updates-videos-group-container {
+  display: flex;
+  /* justify-content: space-between;
+  flex: 1; */
+}
+
+.updates-videos-group-container-1 {
+  margin-right: 30px;
+}
+
+.updates-video-container {
+  margin-right: 30px;
 }
 
 .updates-video-container:hover {
@@ -433,6 +452,23 @@ footer {
     font-size: 20px;
   }
 
+  .nav-text-link {
+    margin-right: 30px;
+  }
+
+  .nav-text {
+    font-size: 14px;
+  }
+
+  .nav-button {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+  }
+
   .main-icon-container {
     width: 75px;
     height: 50px;
@@ -468,6 +504,20 @@ footer {
 
   .play-icon {
     width: 100px;
+  }
+
+  .updates-videos-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .updates-videos-group-container {
+    justify-content: space-between;
+    flex: 1;
+  }
+
+  .updates-video-container {
+    margin-right: 0px;
   }
 
   .discussion-videos-container {
