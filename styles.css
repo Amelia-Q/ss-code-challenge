@@ -131,6 +131,18 @@ h1 {
   cursor: pointer;
 }
 
+.main-icon-container:hover .main-icon-earth {
+  display: none;
+}
+
+.main-icon-container .main-icon-earth-white {
+  display: none;
+}
+
+.main-icon-container:hover .main-icon-earth-white {
+  display: block;
+}
+
 .pointing-icon {
   width: 30px;
   height: auto;
@@ -150,7 +162,16 @@ h1 {
   transform: rotate(270deg);
 }
 
+.pointing-right-icon {
+  font-size: 24px;
+}
+
 .main-icon-earth {
+  width: 22px;
+  height: auto;
+}
+
+.main-icon-earth-white {
   width: 22px;
   height: auto;
 }
@@ -435,7 +456,7 @@ footer {
   text-align: center;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 850px) {
   body {
     font-size: 16px;
   }
@@ -479,7 +500,16 @@ footer {
     height: auto;
   }
 
+  .pointing-right-icon {
+    font-size: 34px;
+  }
+
   .main-icon-earth {
+    width: 30px;
+    height: auto;
+  }
+
+  .main-icon-earth-white {
     width: 30px;
     height: auto;
   }
